@@ -1,0 +1,146 @@
+<androidx.cardview.widget.CardView android:id="@+id/cardViewBP"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="5dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="4dp"
+    app:cardCornerRadius="10dp"
+    app:cardUseCompatPadding="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:orientation="vertical"
+        android:background="#e4e4e4"
+        >
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/ic_fix"
+                app:tint="@color/colorPrimaryDark" />
+
+            <TextView
+                android:id="@+id/name"
+                style="@style/sizeTextView"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="70dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="MOUSE LOGITECH MX MASTER 3"
+                android:textColor="@color/negro" />
+
+            <TextView
+                android:id="@+id/document"
+                style="@style/sizeTextView"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name"
+                android:layout_marginStart="70dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="20600114299 | LOGIMX00049"
+                android:textColor="@color/negro" />
+
+
+
+        </RelativeLayout>
+        <View
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/colorPrimaryDark"/>
+
+
+        <TextView
+            android:id="@+id/Id"
+            style="@style/sizeTextView"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Almacen: CyberPlaza       Stock:20     Precio: S/200.00"
+            android:textColor="@color/negro" />
+        <TextView
+            android:id="@+id/Id2"
+            style="@style/sizeTextView"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Almacen: SSA-123             Stock:15     Precio: S/200.00"
+            android:textColor="@color/negro" />
+        <TextView
+            android:id="@+id/Id8"
+            style="@style/sizeTextView"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Almacen: SSA150               Stock:20     Precio: S/200.00"
+            android:textColor="@color/negro" />
+        <TextView
+            android:id="@+id/Id7"
+            style="@style/sizeTextView"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Almacen: MALVINASI       Stock:20     Precio: S/200.00"
+            android:textColor="@color/negro" />
+        <TextView
+            android:id="@+id/Id6"
+            style="@style/sizeTextView"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Almacen: CyberPlaza       Stock:20     Precio: S/200.00"
+            android:textColor="@color/negro" />
+        <TextView
+            android:id="@+id/Id3"
+            style="@style/sizeTextView"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Almacen: MALVINASII       Stock:20     Precio: S/200.00"
+            android:textColor="@color/negro" />
+        <TextView
+            android:id="@+id/Id4"
+            style="@style/sizeTextView"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Almacen: CyberPlaza       Stock:20     Precio: S/200.00"
+            android:textColor="@color/negro" />
+        <TextView
+            android:id="@+id/Id5"
+            style="@style/sizeTextView"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Almacen: CyberPlaza       Stock:20     Precio: S/200.00"
+            android:textColor="@color/negro" />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
