@@ -19,7 +19,7 @@
 
     <fragment
         android:id="@+id/nav_slideshow"
-        android:name="com.unosoft.appcomercial.ui.cotizaciones.CotizacionesFragment"
+        android:name="com.unosoft.appcomercial.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_cotizaciones" />
+        tools:layout="@layout/fragment_slideshow" />
 </navigation>
